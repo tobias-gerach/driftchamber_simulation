@@ -1,4 +1,11 @@
 class Chamber:
+    """
+    Basic class to define the geometry and layout of the driftchamber.
+
+    :param superlayerlist: integer list defining the number of layers in each superlayer
+    :param width: width of the chamber
+    :param datastore: datastore object holding info about the chamber
+    """
     def __init__(self, superlayerlist, width, datastore):
 
         self.Field = []
@@ -16,7 +23,7 @@ class Chamber:
                     self.Field.append(str("O") * self.Width)
             t = not t
 
-    def getFeld(self):
+    def getField(self):
         return self.Field
 
     def getWidth(self):
