@@ -1,0 +1,10 @@
+# Chamber width
+100
+# Background noise intensity
+0.01
+# Number of layers in each super layer
+10
+10
+10
+10
+10
