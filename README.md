@@ -1,5 +1,7 @@
 # driftchamber_simulation
 
+![Example of a driftchamber simulation with three particles and reconstructed path using Hough transform.](./figures/driftchamber_example.png)
+
 ## Description
 
 This is a small driftchamber simulation, that uses a simple Hough algorithm to detect randomly recorded particles in a straight line. 
@@ -18,9 +20,12 @@ You can run the project via the command line by executing:
 
 To run all unit tests, execute:
 
+```
 ./run_unittest.sh
+```
 
 or
 
+```
 ./drift_tests.py
-
+```
